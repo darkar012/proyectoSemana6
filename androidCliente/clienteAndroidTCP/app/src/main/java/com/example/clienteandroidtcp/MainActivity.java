@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         color = findViewById(R.id.colorBtn);
 
         conexion = new TCPcliente();
-        conexion.setMain(this);
         conexion.start();
 
         up.setOnClickListener(

@@ -45,8 +45,4 @@ public class TCPcliente extends Thread{
                 }
         ).start();
     }
-
-    public void setMain(MainActivity main){
-        this.ref = main;
-    }
 }

@@ -22,8 +22,6 @@ public class Main extends PApplet {
 	int yBolita = 200;
 	int r, g, b;
 
-	PApplet app;
-
 	String llave;
 
 	private TCPserver conexion;
